@@ -18,7 +18,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/Client/dist/$1"
+      "dest": "/Client/dist/index.html"
     }
   ]
 } 
