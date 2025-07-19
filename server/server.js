@@ -31,6 +31,5 @@ app.get('/',(req,res)=>{
     res.send('the server is started')
 })
 
-app.listen(port, ()=>{
-    console.log(`the port is runing from port number ${port}`)
-})
+// Remove app.listen for Vercel serverless deployment
+module.exports = app;
