@@ -45,7 +45,7 @@ exports.generateImage = async (req, res) => {
       formData,
       {
         headers: {
-          'x-api-key': '038100f9cd19d37083a3e3a0d31f9ce0c708203b725c163af3e108a52bc439dfbbe2d0666dae7e0fad00866349d76c32', // Hardcoded API key
+          'x-api-key': "038100f9cd19d37083a3e3a0d31f9ce0c708203b725c163af3e108a52bc439dfbbe2d0666dae7e0fad00866349d76c32",
           ...formData.getHeaders(),
         },
         responseType: 'arraybuffer',
