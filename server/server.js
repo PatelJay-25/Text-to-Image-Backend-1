@@ -32,4 +32,7 @@ app.get('/',(req,res)=>{
 })
 
 // Remove app.listen for Vercel serverless deployment
+app.listen(port,()=>{
+  console.log("object")
+})
 module.exports = app;
