@@ -22,8 +22,7 @@ app.use('/api/v1',route)
 
 app.use('/api/payment', paymentRoute);
 
-const imageRoute = require('./routes/ImageRoutre');
-app.use('/api/image', imageRoute);
+
 const db=require('./config/mogodb')
 db();
 
